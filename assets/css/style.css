@@ -1,0 +1,33 @@
+/* Box Sizing */
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+    *,
+    *::before,
+    *::after {
+        -webkit-box-sizing: inherit;
+           -moz-box-sizing: inherit;
+                box-sizing: inherit;
+    }
+
+/* body 100% with no margin or padding */
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* =================== Start Style Sheet ==========================
+================================================================ */
+
