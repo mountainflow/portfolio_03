@@ -213,34 +213,37 @@ a {
 .nav li:nth-child(1) {
 					position: relative;
 					left: -1000px;
-					animation: navFadeIn 3s ease-in 9s forwards;
+					animation: navFadeIn 3s ease-in 8s forwards;
 }
 
 .nav li:nth-child(2) {
 					position: relative;
 					left: -1000px;
-					animation: navFadeIn 3s ease-in 8.85s forwards;
+					animation: navFadeIn 3s ease-in 7.85s forwards;
 }
 
 .nav li:nth-child(3) {
 					position: relative;
 					left: -1000px;
-					animation: navFadeIn 3s ease-in 8.7s forwards;
+					animation: navFadeIn 3s ease-in 7.7s forwards;
 }
 
 .nav li:nth-child(4) {
 					position: relative;
 					left: -1000px;
-					animation: navFadeIn 3s ease-in 8.55s forwards;
+					animation: navFadeIn 3s ease-in 7.55s forwards;
 }
 
 .nav li:nth-child(5) {
 					position: relative;
 					left: -1000px;
-					animation: navFadeIn 3s ease-in 8.4s forwards;
+					animation: navFadeIn 3s ease-in 7.4s forwards;
 }
 
 @keyframes navFadeIn {
+					50% {
+													opacity: 0;
+													}
 					85% {
 													left:0;
 													}
@@ -255,6 +258,7 @@ a {
 													}
 					100% {
 													left:0;
+													opacity: 1;
 													}
 }
 
