@@ -241,7 +241,7 @@ a {
 }
 
 @keyframes navFadeIn {
-					50% {
+					20% {
 													opacity: 0;
 													}
 					85% {
@@ -261,8 +261,3 @@ a {
 													opacity: 1;
 													}
 }
-
-/*.nav li {
-					animation: buttonSlide 1s ease-in 7s forwards 
-}*/
-
