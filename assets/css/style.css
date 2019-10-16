@@ -45,7 +45,6 @@ body {
 }
 
 .header {
-  /* outline: solid red thin; */
   font-family: 'Lato', sans-serif;
   grid-column: 2 / 3;
   grid-row: 1 / 3;
@@ -74,13 +73,11 @@ body {
 }
 
 .main {
-  /* outline: solid blue thin; */
   grid-column: 1 / 3;
   grid-row: 2 / 4;
 }
 
 .nav {
-  /* outline: solid green thin; */
   grid-column: 1 / 2;
   grid-row: 4 / 5;
   align-self: end;
@@ -207,6 +204,51 @@ a {
     opacity: 1;
   }
 }
+
+/* Portfolio Page */
+
+.folio-main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 25em 1fr;
+  height: 100vh;
+  width: 100vw;
+}
+
+.folio-main {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
+
+.gallery {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  outline: solid green thin;
+}
+
+.gallery a {
+  width: 100%;
+  display: flex;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.folio-nav {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  align-self: end;
+  justify-self: end;
+  padding: 2em;
+}
+
+.folio-nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
 
 /* Button animations */
 
