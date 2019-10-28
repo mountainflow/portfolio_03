@@ -52,7 +52,7 @@ a {
 }
 
 .folio-main {
-  	outline: blue solid thin;
+  	/* outline: blue solid thin; */
   	grid-column: 1 / 3;
 	grid-row: 1 / 2;
 	display: flex;
@@ -64,7 +64,7 @@ a {
 }
 
 .gallery-container {
-	outline: pink solid thin;
+	/* outline: pink solid thin; */
 	max-height: 80%;
 	min-height: 0;
 	min-width: 0;
@@ -163,7 +163,7 @@ left: 50%;
 /* Nav Section */
 
 .folio-nav {
-  	outline: red solid thin;
+  	/* outline: red solid thin; */
   	grid-column: 1 / 2;
   	grid-row: 2 / 3;
   	align-self: end;
