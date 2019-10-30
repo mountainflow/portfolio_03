@@ -66,6 +66,7 @@ a {
 .gallery-container {
 	/* outline: pink solid thin; */
 	max-height: 80%;
+	border-radius: 6px;
 	min-height: 0;
 	min-width: 0;
 	overflow: hidden;
@@ -120,7 +121,7 @@ left: 50%;
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
+  /* position: absolute; */
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -142,8 +143,9 @@ left: 50%;
   background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
+/* Fading animation for image change */
+
+.image-fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -189,7 +191,6 @@ li {
 }
 
 /* Button animations */
-
 .folio-nav li:nth-child(1) {
 	position: relative;
 	left: -1000px;
