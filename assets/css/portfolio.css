@@ -106,18 +106,20 @@ left: 50%;
 }
 
 /* Position the "next button" to the right */
+/* ===============Positioning is off way to right ==============*/
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* Hover background */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
-.caption {
+
+.caption {   /* ====== Combine with .caption above line 84 ===========*/
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -125,9 +127,11 @@ left: 50%;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  display: none; /* ================ Set until figure out why it's to the right ==*/
 }
 
 /* The dots/bullets/indicators */
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -191,6 +195,7 @@ li {
 }
 
 /* Button animations */
+
 .folio-nav li:nth-child(1) {
 	position: relative;
 	left: -1000px;
