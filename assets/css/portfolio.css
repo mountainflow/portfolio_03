@@ -81,12 +81,12 @@ img.responsive {
 	height: auto;
 }
 
-.caption {
+/* .caption {
 z-index: 10;
 position: absolute;
 top: 15%;
 left: 50%;
-}
+} */
 
 /* Next & previous buttons */
 
@@ -119,15 +119,16 @@ left: 50%;
 
 /* Caption text */
 
-.caption {   /* ====== Combine with .caption above line 84 ===========*/
-  color: #f2f2f2;
-  font-size: 15px;
+.caption {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 2em;
   padding: 8px 12px;
-  /* position: absolute; */
-  bottom: 8px;
-  width: 100%;
+  /* bottom: 8px; */
+  /* width: 100%; */
   text-align: center;
-  display: none; /* ================ Set until figure out why it's to the right ==*/
 }
 
 /* The dots/bullets/indicators */
